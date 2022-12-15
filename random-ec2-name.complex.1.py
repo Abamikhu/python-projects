@@ -2,7 +2,7 @@
 
 import random
 import re 
-#
+##
 
 number_of_names = input("Number of EC2 names? ")
 number_of_names = int(number_of_names)
