@@ -15,6 +15,7 @@ if response == "Yes":
     x=ec2_client.describe_instances()
     data=x["Reservations"]
     li=[]
+    
     for instances in data:
         instance=instances["Instances"]
         for ids in instance:
